@@ -7,7 +7,8 @@ body {
 }
   
 h1 {
-    color: #f76c6c; 
+    color: #f76c6c;
+    border: 1px solid whitesmoke;
 }
 
 nav {
@@ -24,4 +25,13 @@ nav > ul {
 nav > ul > li {
     display: inline-block;
     margin-right: 1rem;
+}
+
+header {
+    min-height: 250px;
+    background: no-repeat url(https://loremflickr.com/cache/resized/65535_51891814507_ee8739bbfd_h_1200_300_nofilter.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
