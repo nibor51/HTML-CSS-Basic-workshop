@@ -9,3 +9,19 @@ body {
 h1 {
     color: #f76c6c; 
 }
+
+nav {
+    background-color: #f76c6c;
+    color: whitesmoke;
+    font-weight: 300;
+    padding: 0.5rem;
+}
+
+nav > ul {
+    list-style: none;
+}
+
+nav > ul > li {
+    display: inline-block;
+    margin-right: 1rem;
+}
