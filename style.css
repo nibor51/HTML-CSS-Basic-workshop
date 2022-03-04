@@ -1,9 +1,10 @@
 *, *::after, *::before {
     box-sizing: border-box;
 }
-  
+
 body {
     margin:0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
   
 h1 {
@@ -34,4 +35,13 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+p {
+    line-height: 1.5;
+}
+
+section {
+    max-width: 65ch;
+    margin: 0 auto;
 }
