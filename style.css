@@ -63,3 +63,7 @@ article {
 article > h1 {
     margin-left: 5px
 }
+
+footer {
+    background-color: #f76c6c;
+}
